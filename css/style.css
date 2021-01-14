@@ -1,11 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+.common_style{
+    margin:8% 0 0 0%;  
+   
+}
+.bg_color{
+    background-color: #006DFF !important;
+}
+.about_me{
+    /* margin:8% 0 0 0%;    */
+    font-family: 'Yusei Magic', sans-serif;
+    font-size:30px;
+    color:white
+}
+.skill{
+    font-family: 'Yusei Magic', sans-serif;
+}
+.project{
+    font-family: 'Yusei Magic', sans-serif;
+} 
+.blog{
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
 .brand_logo{
     width:300px;
     margin:8% 0 0 38%;
 }
 .skill_card{
-    width: 200px !important;
-    height: 200px !important;
+    width:80px !important;
+    height: 80px !important;
+}
+.skill_text{
+    font-size:24px;
+    border:1px solid white;
+    font-family: 'Yusei Magic', sans-serif;
+    color:black;
+
+   
+}
+h3{
+    background-color: #006DFF;
+    color:white;
+    padding:3%;
+    font-size:80px;
+    border-radius: 6px;
+    font-family: 'East Sea Dokdo', cursive;
 }
 .contact_icon{
-    width:150px
+    width:40px
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    color: white;
+    text-align: center;
+    z-index:100 !important;
+ }
