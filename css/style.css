@@ -90,3 +90,31 @@ h3{
   ::-webkit-scrollbar-thumb:hover {
     background-color:  #006DFF;
   }
+
+  ul {
+    list-style-type: none;
+   margin-left:40%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    
+    font-size: 30px;
+  
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    
+    color: #006DFF !important;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
