@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
 .common_style{
     margin:8% 0 0 0%;  
    
 }
+.nav_text{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+}
 .bg_color{
     background-color: #006DFF !important;
+  
 }
 .about_me{
     /* margin:8% 0 0 0%;    */
@@ -62,3 +70,23 @@ h3{
     text-align: center;
     z-index:100 !important;
  }
+
+ ::-webkit-scrollbar {
+    width: 20px;
+    
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color:  #006DFF;
+  }
