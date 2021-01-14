@@ -1,120 +1,96 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <title>XDEV200</title>
-  <head>
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
+<title>XDEV200</title>
 
-  <body>
-    <nav
-      class=""
-      style="
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <nav class="" style="
         padding: 0px 10px;
         position: fixed;
         z-index: 10;
         background-color: #006dff;
-      "
-    >
-      <div class="nav-wrapper">
-       
-        <a
-          href="#"
-          class="brand-logo"
-          style="font-family: 'Press Start 2P', cursive; font-size: 25px"
-          >XDEV200</a
-        >
+      ">
+    <div class="nav-wrapper">
 
-        <a href="#" class="sidenav-trigger" data-target="mobile-nav">
-          <i class="material-icons black-text">menu</i>
-        </a>
+      <a href="#" class="brand-logo" style="font-family: 'Press Start 2P', cursive; font-size: 25px">XDEV200</a>
 
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#home" class="nav_text">Home</a></li>
-          <li><a href="#skill" class="nav_text">Skill</a></li>
-          <li><a href="#project" class="nav_text">Projects</a></li>
-          <li><a href="#blog" class="nav_text">Blog</a></li>
-          <!-- <li><a href="#contact" class="black-text">Contact</a></li> -->
-        </ul>
+      <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+        <i class="material-icons black-text">menu</i>
+      </a>
+
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#home" class="nav_text">Home</a></li>
+        <li><a href="#skill" class="nav_text">Skill</a></li>
+        <li><a href="#project" class="nav_text">Projects</a></li>
+        <li><a href="#blog" class="nav_text">Blog</a></li>
+        <!-- <li><a href="#contact" class="black-text">Contact</a></li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Small Device View-->
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="#home" class="black-text">Home</a></li>
+    <li><a href="#skill" class="nav_text">Skill</a></li>
+    <li><a href="#project" class="black-text">Projects</a></li>
+    <li><a href="#blog" class="black-text">Blog</a></li>
+    <!-- <li><a href="#contact" class="black-text">Contact</a></li> -->
+  </ul>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col l10 s12 m5 offset-l1 about_me common_style bg_color" id="home">
+        <div class="card-panel">
+          <img src="https://bit.ly/xdev-logo" width="150" style="padding-top: 6px; margin-left: 45%" alt='xdev_logo' />
+
+          <p class="black-text center" style="text-align: justify">
+            Hi, I am Jamshedpur-native, interested in entrepreneurship. I
+            write in HTML,CSS,JS,NODEJS,REACTJS. I also can speak to databases
+            and make servers do stuff. I like working on scalability,
+            performance, design and great user experiences. When I'm not
+            coding, I'm probably hanging out with my friends, playing chess,
+            watching movies, listening to music and chatting with friends.
+          </p>
+        </div>
       </div>
-    </nav>
 
-    <!-- Small Device View-->
-    <ul class="sidenav" id="mobile-nav">
-      <li><a href="#home" class="black-text">Home</a></li>
-      <li><a href="#skill" class="nav_text">Skill</a></li>
-      <li><a href="#project" class="black-text">Projects</a></li>
-      <li><a href="#blog" class="black-text">Blog</a></li>
-      <!-- <li><a href="#contact" class="black-text">Contact</a></li> -->
-    </ul>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div
-          class="col l10 s12 m5 offset-l1 about_me common_style bg_color"
-          id="home"
-        >
-          <div class="card-panel">
-            <img
-              src="https://bit.ly/xdev-logo"
-              width="150"
-              style="padding-top: 6px; margin-left: 45%"
-              alt='xdev_logo'
-            />
-
-            <p class="black-text center" style="text-align: justify">
-              Hi, I am Jamshedpur-native, interested in entrepreneurship. I
-              write in HTML,CSS,JS,NODEJS,REACTJS. I also can speak to databases
-              and make servers do stuff. I like working on scalability,
-              performance, design and great user experiences. When I'm not
-              coding, I'm probably hanging out with my friends, playing chess,
-              watching movies, listening to music and chatting with friends.
-            </p>
-          </div>
+      <div class="col l10 s12 m5 offset-l1 skill bg_color" id="skill">
+        <div class="card-panel">
+          <h3 class="center">SKILL</h3>
+          <hr />
+          <table class="centered white-text">
+            <tr>
+              <td class="skill_text z-depth-1">HTML5</td>
+              <td class="skill_text z-depth-1">CSS3</td>
+              <td class="skill_text z-depth-1">GIT</td>
+            </tr>
+            <tr>
+              <td class="skill_text z-depth-1">JAVASCRIPT</td>
+              <td class="skill_text z-depth-1">NODE JS</td>
+              <td class="skill_text z-depth-1">REACT JS</td>
+            </tr>
+            <tr>
+              <td class="skill_text z-depth-1">AWS</td>
+              <td class="skill_text z-depth-1">PHP</td>
+              <td class="skill_text z-depth-1">PHOTOSHOP</td>
+            </tr>
+          </table>
         </div>
+      </div>
 
-        <div class="col l10 s12 m5 offset-l1 skill bg_color" id="skill">
-          <div class="card-panel">
-            <h3 class="center">SKILL</h3>
-            <hr />
-            <table class="centered white-text">
-              <tr>
-                <td class="skill_text z-depth-1">HTML5</td>
-                <td class="skill_text z-depth-1">CSS3</td>
-                <td class="skill_text z-depth-1">GIT</td>
-              </tr>
-              <tr>
-                <td class="skill_text z-depth-1">JAVASCRIPT</td>
-                <td class="skill_text z-depth-1">NODE JS</td>
-                <td class="skill_text z-depth-1">REACT JS</td>
-              </tr>
-              <tr>
-                <td class="skill_text z-depth-1">AWS</td>
-                <td class="skill_text z-depth-1">PHP</td>
-                <td class="skill_text z-depth-1">PHOTOSHOP</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-
-        <div class="col l10 s12 m5 offset-l1 project bg_color" id="project">
-          <div class="card-panel">
-            <h3 class="center">PROJECTS</h3>
-            <hr />
-            <table>
-              <!-- <thead>
+      <div class="col l10 s12 m5 offset-l1 project bg_color" id="project">
+        <div class="card-panel">
+          <h3 class="center">PROJECTS</h3>
+          <hr />
+          <table>
+            <!-- <thead>
              <tr>
                <td style="font-size:25px">NAME</td>
                <td style="font-size:25px">TYPE</td>
@@ -122,305 +98,195 @@
                <td style="font-size:25px">VIEW</td>
               </tr>
            </thead> -->
-              <tr>
-                <td class="black-text" style="font-size: 25px">
-                  QUIZ ABOUT ME
-                </td>
-                <td>
-                  <img
-                    src="https://img.icons8.com/ios/452/console.png"
-                    width="50"
-                    alt='console_icon'
-                  />
-                </td>
-                <td>
-                  <a
-                    href="https://repl.it/@MADDYDEV/markOne#index.js"
-                    target="_blank"
-                    class="white-text btn btn-primary purple"
-                    >SOURCE CODE</a
-                  >
-                </td>
-                <td>
-                  <a
-                    href="https://repl.it/@MADDYDEV/markOne?embed=true#index.js"
-                    target="_blank"
-                    class="white-text btn btn-primary red"
-                    >LIVE</a
-                  >
-                </td>
-              </tr>
-              <tr>
-                <td class="black-text" style="font-size: 25px">GENERAL QUIZ</td>
-                <td>
-                  <img
-                    src="https://img.icons8.com/ios/452/console.png"
-                    width="50"
-                    alt='console_icon'
-                  />
-                </td>
-                <td>
-                  <a
-                    href="https://repl.it/@MADDYDEV/markTwo#index.js"
-                    target="_blank"
-                    class="white-text btn btn-primary purple"
-                    >SOURCE CODE</a
-                  >
-                </td>
-                <td>
-                  <a
-                    href="https://repl.it/@MADDYDEV/markTwo?embed=true#index.js"
-                    target="_blank"
-                    class="white-text btn btn-primary red"
-                    >LIVE</a
-                  >
-                </td>
-              </tr>
-              <tr>
-                <td class="black-text" style="font-size: 25px">
-                  PERSONAL WEBSITE
-                </td>
-                <td>
-                  <img
-                    src="https://www.freeiconspng.com/thumbs/website-icon/website-icon-11.png"
-                    width="50"
-                    alt='website_icon'
-                  />
-                </td>
-                <td>
-                  <a
-                    href="https://github.com/Madhusudan707/portfolio_site"
-                    target="_blank"
-                    class="white-text btn btn-primary purple"
-                    >SOURCE CODE</a
-                  >
-                </td>
-                <td>
-                  <a
-                    href="https://xdev200.netlify.app"
-                    target="_blank"
-                    class="white-text btn btn-primary red"
-                    >LIVE</a
-                  >
-                </td>
-              </tr>
+            <tr>
+              <td class="black-text" style="font-size: 25px">
+                QUIZ ABOUT ME
+              </td>
+              <td>
+                <img src="https://img.icons8.com/ios/452/console.png" width="50" alt='console_icon' />
+              </td>
+              <td>
+                <a href="https://repl.it/@MADDYDEV/markOne#index.js" target="_blank"
+                  class="white-text btn btn-primary purple">SOURCE CODE</a>
+              </td>
+              <td>
+                <a href="https://repl.it/@MADDYDEV/markOne?embed=true#index.js" target="_blank"
+                  class="white-text btn btn-primary red">LIVE</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="black-text" style="font-size: 25px">GENERAL QUIZ</td>
+              <td>
+                <img src="https://img.icons8.com/ios/452/console.png" width="50" alt='console_icon' />
+              </td>
+              <td>
+                <a href="https://repl.it/@MADDYDEV/markTwo#index.js" target="_blank"
+                  class="white-text btn btn-primary purple">SOURCE CODE</a>
+              </td>
+              <td>
+                <a href="https://repl.it/@MADDYDEV/markTwo?embed=true#index.js" target="_blank"
+                  class="white-text btn btn-primary red">LIVE</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="black-text" style="font-size: 25px">
+                PERSONAL WEBSITE
+              </td>
+              <td>
+                <img src="https://www.freeiconspng.com/thumbs/website-icon/website-icon-11.png" width="50"
+                  alt='website_icon' />
+              </td>
+              <td>
+                <a href="https://github.com/Madhusudan707/portfolio_site" target="_blank"
+                  class="white-text btn btn-primary purple">SOURCE CODE</a>
+              </td>
+              <td>
+                <a href="https://xdev200.netlify.app" target="_blank" class="white-text btn btn-primary red">LIVE</a>
+              </td>
+            </tr>
 
-              <tr>
-                <td class="black-text" style="font-size: 25px">
-                  PIRATE TRANS APP
-                </td>
-                <td>
-                  <img
-                    src="https://cdn1.vectorstock.com/i/1000x1000/14/10/black-cloud-api-interface-icon-isolated-vector-26101410.jpg"
-                    width="50"
-                    alt='api_icon'
-                  />
-                </td>
-                <td>
-                  <a
-                    href="https://github.com/Madhusudan707/fun-translation-app"
-                    target="_blank"
-                    class="white-text btn btn-primary purple"
-                    >SOURCE CODE</a
-                  >
-                </td>
-                <td>
-                  <a
-                    href="https://pirates-trans.netlify.app"
-                    target="_blank"
-                    class="white-text btn btn-primary red"
-                    >LIVE</a
-                  >
-                </td>
-              </tr>
+            <tr>
+              <td class="black-text" style="font-size: 25px">
+                PIRATE TRANS APP
+              </td>
+              <td>
+                <img
+                  src="https://cdn1.vectorstock.com/i/1000x1000/14/10/black-cloud-api-interface-icon-isolated-vector-26101410.jpg"
+                  width="50" alt='api_icon' />
+              </td>
+              <td>
+                <a href="https://github.com/Madhusudan707/fun-translation-app" target="_blank"
+                  class="white-text btn btn-primary purple">SOURCE CODE</a>
+              </td>
+              <td>
+                <a href="https://pirates-trans.netlify.app" target="_blank"
+                  class="white-text btn btn-primary red">LIVE</a>
+              </td>
+            </tr>
 
-              <tr>
-                <td class="black-text" style="font-size: 25px">
-                  KLINGON TRANSLATION
-                </td>
-                <td>
-                  <img
-                    src="https://cdn1.vectorstock.com/i/1000x1000/14/10/black-cloud-api-interface-icon-isolated-vector-26101410.jpg"
-                    width="50"
-                    alt='api_icon'
-                  />
-                </td>
-                <td>
-                  <a
-                    href="https://github.com/Madhusudan707/Klingon-translation"
-                    target="_blank"
-                    class="white-text btn btn-primary purple"
-                    >SOURCE CODE</a
-                  >
-                </td>
-                <td>
-                  <a
-                    href="https://klingon-trans.netlify.app"
-                    target="_blank"
-                    class="white-text btn btn-primary red"
-                    >LIVE</a
-                  >
-                </td>
-              </tr>
+            <tr>
+              <td class="black-text" style="font-size: 25px">
+                KLINGON TRANSLATION
+              </td>
+              <td>
+                <img
+                  src="https://cdn1.vectorstock.com/i/1000x1000/14/10/black-cloud-api-interface-icon-isolated-vector-26101410.jpg"
+                  width="50" alt='api_icon' />
+              </td>
+              <td>
+                <a href="https://github.com/Madhusudan707/Klingon-translation" target="_blank"
+                  class="white-text btn btn-primary purple">SOURCE CODE</a>
+              </td>
+              <td>
+                <a href="https://klingon-trans.netlify.app" target="_blank"
+                  class="white-text btn btn-primary red">LIVE</a>
+              </td>
+            </tr>
 
-              <tr>
-                <td class="black-text" style="font-size: 25px">
-                  EMOJI TO TEXT
-                </td>
-                <td>
-                  <img
-                    src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FJMHFn%2Fbtqz9sIKRZH%2FRkkHjKhYUzM5HHb9P2Om9k%2Fimg.png"
-                    width="50"
-                    alt='reactjs_icon'
-                  />
-                </td>
-                <td>
-                  <a
-                    href="https://github.com/Madhusudan707/emoji-translation"
-                    target="_blank"
-                    class="white-text btn btn-primary purple"
-                    >SOURCE CODE</a
-                  >
-                </td>
-                <td>
-                  <a
-                    href="https://emoji2text.netlify.app"
-                    target="_blank"
-                    class="white-text btn btn-primary red"
-                    >LIVE</a
-                  >
-                </td>
-              </tr>
-              <tr>
-                <td class="black-text" style="font-size: 25px">GOODBOOKS</td>
-                <td>
-                  <img
-                    src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FJMHFn%2Fbtqz9sIKRZH%2FRkkHjKhYUzM5HHb9P2Om9k%2Fimg.png"
-                    width="50"
-                    alt='reactjs_icon'
-                  />
-                </td>
-                <td>
-                  <a
-                    href="https://github.com/Madhusudan707/goodbooks"
-                    target="_blank"
-                    class="white-text btn btn-primary purple"
-                    >SOURCE CODE</a
-                  >
-                </td>
-                <td>
-                  <a
-                    href="https://godbooks.netlify.app/"
-                    target="_blank"
-                    class="white-text btn btn-primary red"
-                    >LIVE</a
-                  >
-                </td>
-              </tr>
-            </table>
-          </div>
+            <tr>
+              <td class="black-text" style="font-size: 25px">
+                EMOJI TO TEXT
+              </td>
+              <td>
+                <img
+                  src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FJMHFn%2Fbtqz9sIKRZH%2FRkkHjKhYUzM5HHb9P2Om9k%2Fimg.png"
+                  width="50" alt='reactjs_icon' />
+              </td>
+              <td>
+                <a href="https://github.com/Madhusudan707/emoji-translation" target="_blank"
+                  class="white-text btn btn-primary purple">SOURCE CODE</a>
+              </td>
+              <td>
+                <a href="https://emoji2text.netlify.app" target="_blank" class="white-text btn btn-primary red">LIVE</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="black-text" style="font-size: 25px">GOODBOOKS</td>
+              <td>
+                <img
+                  src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FJMHFn%2Fbtqz9sIKRZH%2FRkkHjKhYUzM5HHb9P2Om9k%2Fimg.png"
+                  width="50" alt='reactjs_icon' />
+              </td>
+              <td>
+                <a href="https://github.com/Madhusudan707/goodbooks" target="_blank"
+                  class="white-text btn btn-primary purple">SOURCE CODE</a>
+              </td>
+              <td>
+                <a href="https://godbooks.netlify.app/" target="_blank" class="white-text btn btn-primary red">LIVE</a>
+              </td>
+            </tr>
+          </table>
         </div>
-        <div class="col l10 s12 m5 offset-l1 blog bg_color" id="blog">
-          <div class="card-panel">
-            <h3 class="center">BLOGS</h3>
-            <hr />
-            <div class="row">
-              <div class="col l4 m6 s12">
-                <div class="iframely-embed">
-                  <div class="iframely-responsive">
-                    <a
-                      href="https://xdev200200.medium.com/python-105325a2e7c1"
-                      data-iframely-url="//cdn.iframe.ly/xgoJvvD"
-                    ></a>
-                  </div>
+      </div>
+      <div class="col l10 s12 m5 offset-l1 blog bg_color" id="blog">
+        <div class="card-panel">
+          <h3 class="center">BLOGS</h3>
+          <hr />
+          <div class="row">
+            <div class="col l4 m6 s12">
+              <div class="iframely-embed">
+                <div class="iframely-responsive">
+                  <a href="https://xdev200200.medium.com/python-105325a2e7c1"
+                    data-iframely-url="//cdn.iframe.ly/xgoJvvD"></a>
                 </div>
               </div>
-              <div class="col l4 m6 s12">
-                <div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 50%; padding-top: 120px;"><a href="https://xdev200200.medium.com/zero-to-one-commentary-summary-3695704017f9" data-iframely-url="//cdn.iframe.ly/T17U0sN"></a></div></div>
+            </div>
+            <div class="col l4 m6 s12">
+              <div class="iframely-embed">
+                <div class="iframely-responsive" style="padding-bottom: 50%; padding-top: 120px;"><a
+                    href="https://xdev200200.medium.com/zero-to-one-commentary-summary-3695704017f9"
+                    data-iframely-url="//cdn.iframe.ly/T17U0sN"></a></div>
               </div>
-              <div class="col l4 m6 s12">
-                <div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 43.75%; padding-top: 120px;"><a href="https://xdev200200.medium.com/how-does-a-developer-turn-into-an-entrepreneur-fad00f166ff4" data-iframely-url="//cdn.iframe.ly/O8BLjmh"></a></div></div>
-               
+            </div>
+            <div class="col l4 m6 s12">
+              <div class="iframely-embed">
+                <div class="iframely-responsive" style="padding-bottom: 43.75%; padding-top: 120px;"><a
+                    href="https://xdev200200.medium.com/how-does-a-developer-turn-into-an-entrepreneur-fad00f166ff4"
+                    data-iframely-url="//cdn.iframe.ly/O8BLjmh"></a></div>
               </div>
+
             </div>
           </div>
         </div>
-        <div class="col l10 s12 m5 offset-l1 hide contact" id="contact">
-          <div class="card-panel blue">
-            <h3 class="center">CONTACT</h3>
-            <table>
-              <tr>
-                <td>
-                  <a
-                    href="https://bit.ly/xdev-tc"
-                    class="icon brands fa-twitter"
-                    target="__blank"
-                    ><span class="label"
-                      ><img
-                        src="images/twitter.png"
-                        class="contact_icon"  alt='twitter_icon' /></span
-                  ></a>
-                </td>
-                <td>
-                  <a
-                    href="https://bit.ly/xdev-fb"
-                    class="icon brands fa-facebook"
-                    target="__blank"
-                    ><span class="label"
-                      ><img src="images/fb.png" class="contact_icon" alt='fb_icon' /></span
-                  ></a>
-                </td>
-                <td>
-                  <a
-                    href="https://bit.ly/xdev-git"
-                    class="icon brands fa-github"
-                    target="__blank"
-                    ><span class="label"
-                      ><img
-                        src="images/github.png"
-                        class="contact_icon" alt='git_icon' /></span
-                  ></a>
-                </td>
-              </tr>
-            </table>
-          </div>
+      </div>
+      <div class="col l10 s12 m5 offset-l1 hide contact" id="contact">
+        <div class="card-panel blue">
+          <h3 class="center">CONTACT</h3>
+          <table>
+            <tr>
+              <td>
+                <a href="https://bit.ly/xdev-tc" class="icon brands fa-twitter" target="__blank"><span
+                    class="label"><img src="images/twitter.png" class="contact_icon" alt='twitter_icon' /></span></a>
+              </td>
+              <td>
+                <a href="https://bit.ly/xdev-fb" class="icon brands fa-facebook" target="__blank"><span
+                    class="label"><img src="images/fb.png" class="contact_icon" alt='fb_icon' /></span></a>
+              </td>
+              <td>
+                <a href="https://bit.ly/xdev-git" class="icon brands fa-github" target="__blank"><span
+                    class="label"><img src="images/github.png" class="contact_icon" alt='git_icon' /></span></a>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
-    <!--footer-->
+  </div>
+  <!--footer-->
 
-    <div class="footer z-depth-1 grey lighten-5">
-      <br/>
-  
-      <a
-        href="https://bit.ly/xdev-tc"
-        class="fa fa-twitter footer_icons"
-        target="__blank"
-      ></a>
-      <a
-        href="https://bit.ly/xdev-fb"
-        class="fa fa-facebook footer_icons"
-        target="__blank"
-      ></a>
-      <a
-        href="https://github.com/Madhusudan707"
-        class="fa fa-github footer_icons"
-        target="__blank"
-      ></a>
-      <a
-        href="https://bit.ly/xdev-linkedln"
-        class="fa fa-linkedin footer_icons"
-        target="__blank"
-      ></a>
-      <a
-        href="https://bit.ly/xdev-wa"
-        class="fa fa-whatsapp footer_icons"
-        target="__blank"
-      ></a>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/main.js"></script>
-    <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
-  </body>
+  <div class="footer z-depth-1 grey lighten-5">
+    <br />
+
+    <a href="https://bit.ly/xdev-tc" class="fa fa-twitter footer_icons" target="__blank"></a>
+    <a href="https://bit.ly/xdev-fb" class="fa fa-facebook footer_icons" target="__blank"></a>
+    <a href="https://github.com/Madhusudan707" class="fa fa-github footer_icons" target="__blank"></a>
+    <a href="https://bit.ly/xdev-linkedln" class="fa fa-linkedin footer_icons" target="__blank"></a>
+    <a href="https://bit.ly/xdev-wa" class="fa fa-whatsapp footer_icons" target="__blank"></a>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
+  <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+</body>
+
 </html>
