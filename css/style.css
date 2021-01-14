@@ -91,30 +91,9 @@ h3{
     background-color:  #006DFF;
   }
 
-  ul {
-    list-style-type: none;
-   margin-left:40%;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-    
-    font-size: 30px;
-  
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    
-    color: #006DFF !important;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111111;
-  }
+.footer_icons{
+    font-size: 40px;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    color:  #006DFF;
+}
