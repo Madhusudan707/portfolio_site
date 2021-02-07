@@ -50,6 +50,36 @@ nav {
   width:95%;
    
 }
+
+/*Project Button color*/
+
+.node,.js,.git,.html,.css,.api,.react{
+    padding:1%;
+    border:1px solid grey;
+    border-radius:4px;
+}
+.node{
+   
+    background-color: #3C873A;
+}
+.js{
+    background-color: #FAC03B;
+}
+.git{
+    background-color: #3E2D07;
+}
+.html{
+    background-color: #F06636;
+}
+.css{
+    background-color: #3C99DC;
+}
+.api{
+    background-color: black;
+}
+.react{
+    background-color: #61DBFB;
+}
 h3 {
     color: #006DFF;
     ;
@@ -80,7 +110,8 @@ h3 {
 
 /*Footer */
 
-.footer {
+#footer {
+    clear: both;
     position: fixed;
     left: 0;
     bottom: 0;
