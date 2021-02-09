@@ -2,11 +2,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+:root {
+    --text-underline: none;
+    --white-text: white;
+    --font-size25: 25px;
+    --nav-text-color: #3979FA;
+    --margin0: 0;
+    --padding0: 0;
+}
+
+.white-text {
+    color: var(--white-text);
+}
+
 html {
     scroll-behavior: smooth;
 }
 
-nav {
+body {
+    margin: var(--margin0);
+    padding: var(--padding0);
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 78% 22%;
+    grid-template-rows: auto auto;
+    /* background-color:#3979FA ; */
+    padding: 1% 0.5%;
+    
+    box-shadow: 5px 3px #e0e0e0;
+}
+
+/*nav items */
+ul {
+    list-style-type: none;
+    margin: var(--margin0);
+    padding: var(--padding0);
+}
+
+li {
+    display: inline;
+}
+
+li>a {
+    text-decoration: var(--text-underline);
+    font-size: var(--font-size25);
+    color: var(--nav-text-color);
+    margin-right: 5%;
+    font-family: 'Hepta Slab', serif;
+    font-size: 16px;
+}
+
+li>a:hover {
+    font-size: 17px;
+
+    border: 5px groove #3979FA;
+    padding: 2%;
+    border-radius: 6px;
+}
+
+.brand-logo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: var(--font-size25);
+    text-decoration: var(--text-underline);
+    color: var(nav-text-color)
+}
+
+/*About */
+.about-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
+.about {
+    font-family: 'Hepta Slab', serif;
+    font-size: 30px;
+    color: black;
+    text-align: justify;
+    margin: 9% 4% 0 4%;
+    line-height: 2;
+}
+
+/* nav {
     padding: 0px 10px;
     position: fixed;
     z-index: 10;
@@ -22,21 +101,24 @@ nav {
 .nav_text {
     font-family: 'Hepta Slab', serif;
     font-size: 16px;
-}
+} */
 
 /*common style */
-.skill, .project, .blog{
-    margin:8% 0 0 0%;
+.skill,
+.project,
+.blog {
+    margin: 8% 0 0 0%;
 }
+
 /*About*/
 
-.about_me {
+/* .about_me {
     font-family: 'Hepta Slab', serif;
     font-size: 30px;
     color: black;
     text-align: justify;
     margin: 9% 0 0 0%;
-}
+} */
 
 /*Skill */
 
@@ -46,40 +128,54 @@ nav {
     color: black;
 }
 
-.project_table{
-  width:95%;
-   
+.project_table {
+    width: 95%;
+
 }
 
 /*Project Button color*/
 
-.node,.js,.git,.html,.css,.api,.react{
-    padding:1%;
-    border:1px solid grey;
-    border-radius:4px;
+.node,
+.js,
+.git,
+.html,
+.css,
+.api,
+.react {
+    padding: 1%;
+    border: 2px groove grey;
+    border-radius: 6px;
 }
-.node{
-   
+
+.node {
+
     background-color: #3C873A;
 }
-.js{
+
+.js {
     background-color: #FAC03B;
 }
-.git{
+
+.git {
     background-color: #3E2D07;
 }
-.html{
+
+.html {
     background-color: #F06636;
 }
-.css{
+
+.css {
     background-color: #3C99DC;
 }
-.api{
+
+.api {
     background-color: black;
 }
-.react{
+
+.react {
     background-color: #61DBFB;
 }
+
 h3 {
     color: #006DFF;
     ;
@@ -127,4 +223,9 @@ h3 {
     padding-left: 2%;
     padding-bottom: 2%;
     color: #006DFF;
+    text-decoration: var(--text-underline);
+}
+
+.footer_icons:hover {
+    font-size: 70px;
 }
